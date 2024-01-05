@@ -1,0 +1,20 @@
+version: 2.1
+
+jobs:
+  release:
+    docker:
+      - image: alexfalkowski/release:3.1
+    working_directory: ~/alexfalkowski
+    steps:
+      - checkout
+      - run: release
+    resource_class: large
+
+workflows:
+  alexfalkowski:
+    jobs:
+      - release:
+          context: gh
+          filters:
+            branches:
+              only: master
