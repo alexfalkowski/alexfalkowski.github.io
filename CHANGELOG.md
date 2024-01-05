@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.0.1](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.0.1) - 2024-01-05
+
+- [`374c6db`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/374c6dbce21a260913bb6144af41575170d03af8) fix: use links (#2)
+
 ## [v1.0.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.0.0) - 2024-01-05
 
 - [`f776348`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f77634865d3c8fda0c3868f0a4d115555c72a49a) feat: add readme (#1)
