@@ -1,6 +1,6 @@
-# Alex Falkowski
+# Welcome!
 
-Welcome to my page. Below you will find important information about myself. Hope you enjoy.
+Below you will find important information about myself. Hope you enjoy.
 
 ## Links
 
