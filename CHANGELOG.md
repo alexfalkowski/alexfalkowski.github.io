@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.0.2](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.0.2) - 2024-04-16
+
+- [`34106ca`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/34106ca627e08c5479aa088f5d67532656b68d59) fix(name): remove extra name (#7)
+- [`35641fb`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/35641fbc2f40df5d1368e763472fcca07817b504) build(deps): bump bin from `c322696` to `f01b719` (#6)
+- [`919b8fd`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/919b8fd3516f26991ae767ca5fc59664e3d3ecb4) build(deps): bump bin from `13a7302` to `c322696` (#5)
+- [`854bee2`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/854bee2c0607260687d4c2385dca3a5b75779135) build(dependabot): check deps (#4)
+- [`9e8c709`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9e8c709fcec8cb586a77453d8dee56ba0de40115) build(make): add bin (#3)
+
 ## [v1.0.1](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.0.1) - 2024-01-05
 
 - [`374c6db`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/374c6dbce21a260913bb6144af41575170d03af8) fix: use links (#2)
