@@ -6,7 +6,7 @@ Below you will find important information about myself. Hope you enjoy.
 
 This list contains important links that you can use to check about myself.
 
-- [CV](https://github.com/alexfalkowski/documentation/blob/master/resume/CV.pdf)
-- [Blog](https://medium.com/@alejandrofalkowski)
+- [CV](https://docs.google.com/document/d/1Nd9rfwKs_j5rcImtY17WhFj4LDfnHSRY_lgnh5cCjeE/edit?usp=sharing)
+- [Blog](https://alejandrofalkowski.substack.com/)
 - [GitHub](https://github.com/alexfalkowski)
 - [LinkedIn](https://www.linkedin.com/in/alejandro-falkowski/)
