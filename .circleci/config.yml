@@ -1,6 +1,15 @@
 version: 2.1
 
 jobs:
+  build:
+    docker:
+      - image: alexfalkowski/go:1.22
+    working_directory: ~/alexfalkowski
+    steps:
+      - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
+      - run: make verify
   release:
     docker:
       - image: alexfalkowski/release:3.1
@@ -13,8 +22,11 @@ jobs:
 workflows:
   alexfalkowski:
     jobs:
+      - build
       - release:
           context: gh
+          requires:
+            - build
           filters:
             branches:
               only: master
