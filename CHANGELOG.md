@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.2.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.2.0) - 2024-10-23
+
+- [`491e6b5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/491e6b5bdf3a5f19fb574821b6e4bed1ad98c6d3) feat(gh): add cname (#32)
+- [`0ced87e`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/0ced87e7509a2d87b59dca8e532973f0efdb96d5) build(deps): bump bin from `8b87d26` to `e8f9d73` (#31)
+- [`a685954`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a685954cf48adb8db2beb28e7cb465d9579fd469) build(deps): bump bin from `b975eab` to `8b87d26` (#30)
+- [`99e80d7`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/99e80d769d37e77d430275ab6d50d713dddfee01) build(deps): bump bin from `1eca781` to `b975eab` (#29)
+- [`5fa8abf`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5fa8abfe6ec6c804cb12c574d9f38a3b12cf6ea3) build(deps): bump bin from `41b7c8b` to `1eca781` (#28)
+- [`d88df42`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d88df425ffa0eb41502fed8106422fca244b4b93) build(deps): bump bin from `808558f` to `41b7c8b` (#26)
+- [`3ccad57`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3ccad57f428bf88ef677ccd8f4a2b332ded70fbb) build(deps): bump bin from `8724850` to `808558f` (#25)
+- [`8ba4dcc`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/8ba4dccf426aa8a33a98962c9b47cbd6549e07e1) build(deps): bump bin from `44badfa` to `8724850` (#24)
+- [`b7d703e`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/b7d703eb77625692d9608f52dd1d6f2e0d37a322) build(deps): bump bin from `897d5f1` to `44badfa` (#23)
+- [`de10b8b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/de10b8bab759e612ae4e66a0f775492ddf270d54) build(ci): add build step (#22)
+- [`3306568`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3306568c963745faee6df799ac7625a5c4c2a394) build(deps): bump bin from `955891d` to `897d5f1` (#21)
+- [`7d52a96`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/7d52a9666c6f69d13576eaeb376b4426a7caa8e8) build(deps): bump bin from `c4fd841` to `955891d` (#20)
+- [`85831fb`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/85831fb0be55355bb8ad1fe90624b0876cde4601) build(deps): bump bin from `93c02b7` to `c4fd841` (#19)
+- [`494bc7d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/494bc7da306d33804876477aa2ca5515bdab975a) build(deps): bump bin from `9e5c4b7` to `93c02b7` (#18)
+- [`9d39401`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9d39401191ab80e628bd15dbeef0bf1e336cf16d) build(deps): bump bin from `693b345` to `9e5c4b7` (#17)
+- [`0406c3a`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/0406c3a2d2495a1731e2a15ddf656aa71d982791) build(deps): bump bin from `f3f2ec4` to `693b345` (#16)
+- [`d5bfed4`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d5bfed4774c42d9449366175904d47d420a68aeb) build(deps): bump bin from `253f8fe` to `f3f2ec4` (#15)
+- [`f73ba58`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f73ba58de6474af93cf6bea7680b746ada9ef12a) build(deps): bump bin from `63b9d75` to `253f8fe` (#14)
+- [`090ee84`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/090ee84707a49c0f54fd9cf0af1b92dd5fcdba95) build(deps): bump bin from `e47704b` to `63b9d75` (#13)
+
 ## [v1.1.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.1.0) - 2024-05-01
 
 - [`756cd21`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/756cd214657d103053fff3248a7a79e82543bfcf) feat(cv): move informtion to this repository (#12)
