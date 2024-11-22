@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.3.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.3.0) - 2024-11-22
+
+- [`757ef24`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/757ef24d17041217f518fd0d33597ce7da37175f) feat(jekyll): setup new site (#34)
+- [`d115daf`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d115daf312ef475ab742937d787a222554395770) build(deps): bump bin from `e8f9d73` to `cf4a7d3` (#33)
+
 ## [v1.2.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.2.0) - 2024-10-23
 
 - [`491e6b5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/491e6b5bdf3a5f19fb574821b6e4bed1ad98c6d3) feat(gh): add cname (#32)
