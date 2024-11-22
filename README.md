@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/alexfalkowski/alexfalkowski.github.io.svg?style=shield)](https://circleci.com/gh/alexfalkowski/alexfalkowski.github.io)
+[![Stability: Active](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/active.html)
+
 # Welcome!
 
 Below you will find important information about myself. Hope you enjoy.
