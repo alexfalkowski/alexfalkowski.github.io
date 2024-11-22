@@ -1,5 +1,6 @@
+include bin/build/make/ruby.mak
 include bin/build/make/git.mak
 
-# Verify everything is correct.
-verify:
-	# Do nothing.
+# Serve the site.
+serve:
+	bundle exec jekyll serve

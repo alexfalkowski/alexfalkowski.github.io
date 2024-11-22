@@ -1,0 +1,11 @@
+AllCops:
+  TargetRubyVersion: 3.3
+  DisplayCopNames: true
+  NewCops: enable
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - '_site/**/*'
+
+Style/Documentation:
+  Enabled: false

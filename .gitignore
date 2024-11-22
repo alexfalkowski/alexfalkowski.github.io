@@ -1,0 +1,11 @@
+/.bundle/
+/.yardoc
+/_yardoc/
+/doc/
+/pkg/
+test/reports/*
+/tmp/
+vendor
+.sass-cache
+.jekyll-cache
+_site
