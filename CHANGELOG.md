@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.4.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.4.0) - 2024-11-22
+
+- [`824fc0f`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/824fc0f267fb3cc58441c64a6e1afffd8cb7e080) feat(site): add favicon (#35)
+
 ## [v1.3.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.3.0) - 2024-11-22
 
 - [`757ef24`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/757ef24d17041217f518fd0d33597ce7da37175f) feat(jekyll): setup new site (#34)
