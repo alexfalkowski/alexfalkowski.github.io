@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.9.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.9.0) - 2025-01-07
+
+- [`e6bc258`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e6bc25893b94f3c1b55dcf053247a58ea007e0d8) feat(deps): bump ruby-lsp from 0.22.1 to 0.23.1 (#45)
+- [`eb0d0a0`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/eb0d0a02e391158291319f9e2998fd37449b90fd) build(ci): bump bundler to v2.6.2 (#44)
+- [`467a960`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/467a9601fc906a3b8802e625b6d013fe922f2162) build(deps): bump bin from `bde1e44` to `a278340` (#43)
+- [`2ec77cb`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/2ec77cba9855ba7b898a8d82b537c4299dc063ba) build(deps): bump bin from `a433391` to `bde1e44` (#42)
+- [`968019e`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/968019edb55733ad2ac4e8f93500287fe56b8bb6) build(deps): bump bin from `10049eb` to `a433391` (#41)
+
 ## [v1.8.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.8.0) - 2024-12-13
 
 - [`cc707bb`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/cc707bbfd61c041a435e32e7f174b4dbd774335c) feat(deps): bump rubocop from 1.69.1 to 1.69.2 (#40)
