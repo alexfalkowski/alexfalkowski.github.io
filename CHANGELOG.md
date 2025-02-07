@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.18.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.18.0) - 2025-02-07
+
+- [`1843866`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/1843866e7709e340a35018b3a0fdce6b01d46c81) feat(deps): bump ruby-lsp from 0.23.8 to 0.23.9 (#57)
+- [`018d41b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/018d41bf3017e80088a58792f1c68e7080839b3d) build(deps): bump bin from `5b56b0c` to `877a42c` (#58)
+
 ## [v1.17.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.17.0) - 2025-02-05
 
 - [`4199f32`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/4199f327d55ef6ad7d9624d382b16eed35e54a6a) feat(deps): bump rubocop from 1.71.1 to 1.71.2 (#56)
