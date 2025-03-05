@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.23.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.23.0) - 2025-03-05
+
+- [`edfc470`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/edfc47076fd6f97d656c5eb6615ecbdcbb68e716) feat(deps): update with make update-all-dep (#71)
+- [`a2ed7ae`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a2ed7ae64b5a6efea4d4e9f83cabe40f14d37f03) build(deps): bump bin from `c8030a1` to `637442f` (#69)
+
 ## [v1.22.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.22.0) - 2025-02-27
 
 - [`868f9bf`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/868f9bfaaf1a476242116719017a9fd68e9ee4dd) feat(deps): bump rubocop from 1.72.2 to 1.73.0 (#68)
