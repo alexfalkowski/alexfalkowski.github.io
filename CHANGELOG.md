@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.27.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.27.0) - 2025-03-31
+
+- [`40bcfb3`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/40bcfb346b14567d7b49b067f54130e5f1e0c5d8) feat(deps): bump ruby-lsp from 0.23.12 to 0.23.13 (#80)
+- [`26bd637`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/26bd6370708cba0f53fd2b6a98428772b5b8ef08) build(deps): bump bin from `16e2296` to `78af843` (#81)
+- [`5c11b2b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5c11b2baa5b599eb321bbdb41f94c97d84aa765b) build(deps): bump bin from `c661929` to `16e2296` (#79)
+- [`9561fcd`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9561fcda5ae40bee578950debbed255bbeadf1e0) build(deps): bump bin from `446c480` to `c661929` (#78)
+
 ## [v1.26.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.26.0) - 2025-03-27
 
 - [`8b47493`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/8b47493fe784de0821821c16378203dccf3b3412) feat(deps): bump rubocop from 1.74.0 to 1.75.1 (#77)
