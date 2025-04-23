@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.32.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.32.0) - 2025-04-23
+
+- [`2589cbe`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/2589cbe75ddf083e4f9e139e13c7c65812a79412) feat(deps): bump rubocop from 1.75.2 to 1.75.3 (#91)
+
 ## [v1.31.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.31.0) - 2025-04-22
 
 - [`9229b06`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9229b068289e30a162467d1f7e81f29c2285680a) feat(deps): bump nokogiri from 1.18.7 to 1.18.8 (#90)
