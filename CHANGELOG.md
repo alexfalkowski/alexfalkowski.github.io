@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.42.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.42.0) - 2025-05-19
+
+- [`d84eb8c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d84eb8c04bda1eb768885a92b34dae735e5c0b79) feat(deps): update sorbet-runtime (0.5.12115) (#106)
+
 ## [v1.41.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.41.0) - 2025-05-16
 
 - [`00a9809`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/00a9809ce2c8ec972932b6ec6ec794a8efc8cb6e) feat(readme): add manager readme (#105)
