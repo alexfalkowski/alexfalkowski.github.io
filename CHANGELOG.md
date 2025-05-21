@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.43.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.43.0) - 2025-05-21
+
+- [`04de14a`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/04de14a30f0be9dc87276d3a195ea2d6ac51c94b) feat(deps): bump ruby-lsp from 0.23.20 to 0.23.21 (#108)
+- [`5b16e35`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5b16e35c64cdb16b2045aa45eed37d41690e9730) build(deps): bump bin from `c59b166` to `041892c` (#107)
+
 ## [v1.42.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.42.0) - 2025-05-19
 
 - [`d84eb8c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d84eb8c04bda1eb768885a92b34dae735e5c0b79) feat(deps): update sorbet-runtime (0.5.12115) (#106)
