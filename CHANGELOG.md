@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.47.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.47.0) - 2025-06-03
+
+- [`a987c03`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a987c03c812b3b5fd6ac96cbe7df7f4a922af9c4) feat(deps): bump ruby-lsp from 0.23.23 to 0.23.24 (#119)
+- [`7d0c136`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/7d0c13615e72329d2825b7dcfcbb655d58c517d0) build(deps): bump bin from `85504ca` to `9c21752` (#118)
+- [`9cdd6db`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9cdd6dbbf617124ebbdda7ca5c6cd2ebb0ea98d9) build(ci): use alexfalkowski/ruby:1.33 (#117)
+- [`10c46f5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/10c46f57dcf3ac69ff39350d68160431dc60d4af) build(deps): bump bin from `810b10e` to `85504ca` (#116)
+- [`9090633`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9090633eef180f15821bf9df8c7f64d863e34a4d) build(ci): use alexfalkowski/ruby:1.31 (#115)
+
 ## [v1.46.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.46.0) - 2025-05-29
 
 - [`524521d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/524521dedef7189282142d2c5caaded648165060) feat(deps): bump rubocop from 1.75.7 to 1.75.8 (#114)
