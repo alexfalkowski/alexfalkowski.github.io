@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.56.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.56.0) - 2025-07-14
+
+- [`5fe1038`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5fe103818231ce3f31c582e18a19edd5cf81932a) feat(deps): bump simplecov-cobertura from 2.1.0 to 3.0.0 (#140)
+- [`6383e64`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/6383e64c2773779f19ed1432caf73a5d43c8677e) build(deps): bump bin from `07bcffa` to `6df8f09` (#139)
+- [`0974a39`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/0974a392f1ef95425917416a5f3ddad5f6f224df) build(ci): use alexfalkowski/ruby:1.42 (#138)
+- [`d3ec9b5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d3ec9b5417c3204f045c338e293b471fa047a221) build(deps): bump bin from `d0fdcaa` to `07bcffa` (#137)
+
 ## [v1.55.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.55.0) - 2025-07-09
 
 - [`8c82bc0`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/8c82bc0a5ba149e78dc2b94877f67d4dbed96e15) feat(deps): bump rubocop from 1.77.0 to 1.78.0 (#135)
