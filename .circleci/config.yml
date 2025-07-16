@@ -3,29 +3,30 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: alexfalkowski/ruby:1.42
+      - image: alexfalkowski/ruby:1.43
     working_directory: ~/alexfalkowski
     steps:
       - checkout
       - run: git submodule sync
       - run: git submodule update --init
+      - run: make source-key
       - restore_cache:
           name: restore deps
           keys:
-            - alexfalkowski-ruby-cache-{{ checksum "Gemfile.lock" }}
+            - alexfalkowski-ruby-cache-{{ checksum "Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
             - alexfalkowski-ruby-cache-
       - run: make dep
       - run: make clean-dep
       - save_cache:
           name: save deps
-          key: alexfalkowski-ruby-cache-{{ checksum "Gemfile.lock" }}
+          key: alexfalkowski-ruby-cache-{{ checksum "Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
           paths:
             - vendor
       - run: make lint
     resource_class: large
   release:
     docker:
-      - image: alexfalkowski/release:3.30
+      - image: alexfalkowski/release:3.32
     working_directory: ~/alexfalkowski
     steps:
       - checkout
