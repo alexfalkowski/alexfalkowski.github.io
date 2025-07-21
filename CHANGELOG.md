@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.57.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.57.0) - 2025-07-21
+
+- [`211156b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/211156b10695a2acb0e0fb6f073b809f46da4499) feat(deps): bump ruby-lsp from 0.25.0 to 0.26.0 (#144)
+- [`effcfee`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/effcfee150e22cfc2fbb0e93922fee8055e7831b) build(deps): bump bin from `6df8f09` to `f024fdf` (#143)
+- [`a03b63b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a03b63be19fc248456dbfb958d8bedbfca4a70f4) build(ci): use alexfalkowski/ruby:1.43 (#142)
+
 ## [v1.56.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.56.0) - 2025-07-14
 
 - [`5fe1038`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5fe103818231ce3f31c582e18a19edd5cf81932a) feat(deps): bump simplecov-cobertura from 2.1.0 to 3.0.0 (#140)
