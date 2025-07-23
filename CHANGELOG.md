@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.58.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.58.0) - 2025-07-23
+
+- [`4ada7d6`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/4ada7d6e9b503f3b03f5e3e6fedbc233293ab379) feat(deps): bump nokogiri from 1.18.8 to 1.18.9 (#146)
+- [`59fdbd2`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/59fdbd257c7952e67848e01ab1b2d37b12b7c4cc) build(deps): bump bin from `f024fdf` to `911aa21` (#145)
+
 ## [v1.57.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.57.0) - 2025-07-21
 
 - [`211156b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/211156b10695a2acb0e0fb6f073b809f46da4499) feat(deps): bump ruby-lsp from 0.25.0 to 0.26.0 (#144)
