@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.59.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.59.0) - 2025-07-23
+
+- [`48349ce`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/48349cebbb8e25a180086f1a97a19ddfcc9c5ab6) feat(deps): udate with make update-all-dep (#147)
+
 ## [v1.58.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.58.0) - 2025-07-23
 
 - [`4ada7d6`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/4ada7d6e9b503f3b03f5e3e6fedbc233293ab379) feat(deps): bump nokogiri from 1.18.8 to 1.18.9 (#146)
