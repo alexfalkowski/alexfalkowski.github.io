@@ -24,20 +24,20 @@ jobs:
             - vendor
       - run: make lint
     resource_class: large
-  release:
+  version:
     docker:
-      - image: alexfalkowski/release:4.4
+      - image: alexfalkowski/release:5.2
     working_directory: ~/alexfalkowski
     steps:
       - checkout
-      - run: release
+      - run: version
     resource_class: large
 
 workflows:
   alexfalkowski:
     jobs:
       - build
-      - release:
+      - version:
           context: gh
           requires:
             - build
