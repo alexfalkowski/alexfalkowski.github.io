@@ -30,6 +30,8 @@ jobs:
     working_directory: ~/alexfalkowski
     steps:
       - checkout
+      - run: git submodule sync
+      - run: git submodule update --init
       - run: version
     resource_class: large
 
