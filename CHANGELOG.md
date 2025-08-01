@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.62.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.62.0) - 2025-08-01
+
+- [`8fcb0f7`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/8fcb0f7b2c139263dcb58b9e58a1a26a29a130f5) feat(deps): bump rubocop from 1.79.0 to 1.79.1 (#156)
+- [`57d7ff5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/57d7ff5f5146193f6c7a574be6df2737f47efb5e) build(ci): update submodule (#154)
+- [`3f8aa52`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3f8aa521abe721817801909a2152000d6dcf9a1f) build(ci): get submodule (#153)
+- [`6dc332d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/6dc332db25b31c81f96550e8c277561d5307b80c) build(ci): use latest published images (#152)
+
 ## [v1.61.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.61.0) - 2025-07-25
 
 - [`3dcbda5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3dcbda530e8426162135607d25529705dafbef31) feat(deps): bump rubocop from 1.78.0 to 1.79.0 (#151)
