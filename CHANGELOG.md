@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.65.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.65.0) - 2025-08-27
+
+- [`3749f73`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3749f7380ca4460ea8e6d2487d8ecb2ba0a422ed) feat(deps): bump simplecov-cobertura from 3.0.0 to 3.1.0 (#168)
+
 ## [v1.64.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.64.0) - 2025-08-25
 
 - [`d71f001`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/d71f00195a351aea87477c2597698dcc6e43e4ca) feat(deps): bump rubocop from 1.79.2 to 1.80.0 (#167)
