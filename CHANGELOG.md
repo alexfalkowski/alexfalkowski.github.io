@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.70.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.70.0) - 2025-10-22
+
+- [`a717d63`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a717d63380ed61e2d917b66ae8ee2dbf84764681) feat(deps): bump rubocop from 1.81.1 to 1.81.6 (#191)
+- [`e06a421`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e06a4219e9c31bea1d0e6f4fc9a1a8f744c7737b) build(deps): bump bin from `6aa86c4` to `5563606` (#190)
+- [`cf2d6b9`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/cf2d6b972d579a6d73ec52f35942177c08ebb661) build(ci): use latest published images (#189)
+- [`1c601a8`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/1c601a8e9484ae11f0f04a7d3d63b7e12c506ad9) build(ci): use latest published images (#188)
+- [`ad1208c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/ad1208c1b3194f04dbe6c4eb3cec12725d36543e) build(ci): use latest published images (#187)
+- [`e450fa4`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e450fa4bfc29ea0113d6c5d2649d12701799ce59) build(ci): use latest published images (#185)
+- [`931f8e3`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/931f8e38715343f25f2501185843915b13c68a30) build(deps): bump bin from `7794421` to `6aa86c4` (#184)
+- [`1b73b94`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/1b73b94a33dfbfdae7c54bcd472b5484cb8dfb1f) build(ci): use blobless (#183)
+- [`3abcecd`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3abcecdac8ca97a1e0885309458baba4b15c87a8) build(deps): bump bin from `d437cb4` to `7794421` (#182)
+- [`076cc9b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/076cc9bfe306ccbedd41f6c81d56ceb4308c58ff) build(ci): use latest published images (#181)
+- [`0416ff2`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/0416ff25ee982b2cf7ad9ebc20ee4bf16caf8a51) build(ci): use latest published images (#180)
+
 ## [v1.69.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.69.0) - 2025-09-29
 
 - [`1757184`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/17571847a42f4ffa5e2ed39a62b39528205ef093) feat(deps): bump rubocop from 1.81.0 to 1.81.1 (#179)
