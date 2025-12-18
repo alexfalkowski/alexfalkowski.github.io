@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.75.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.75.0) - 2025-12-18
+
+- [`0928880`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/09288808ffba4f49bf0f9d52f0a5e72abcef94fd) feat(deps): bump rubocop from 1.81.7 to 1.82.0 (#214)
+- [`440a38c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/440a38cdf94846207161f7130e08d0c77229abb9) build(ci): use latest published images (#213)
+- [`edc4f14`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/edc4f14afa9090dd7800e8b316f5c945c539a604) build(ci): use latest published images (#212)
+- [`a87c4e7`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a87c4e7bb36f5cf91c029b6b8622de332f8a6579) build(ci): use latest published images (#211)
+- [`cc0f1b7`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/cc0f1b70c3a3a6e182b3e7f5f2829d3bef394977) build(deps): bump bin from `5ed27e1` to `6174b3d` (#210)
+- [`efb24b9`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/efb24b914569ca61f62362ed37040dd149229e28) build(ci): use latest published images (#209)
+- [`39075c5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/39075c55291c6ee92aceccd85189e6b55068263b) build(ci): use latest published images (#208)
+- [`e055bb4`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e055bb4da5abc782356c1cf258a8376b7edf7c96) build(ci): use latest published images (#207)
+- [`cb22b18`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/cb22b180ef951df76a134b60f5f00e585f9c32c1) build(ci): use latest published images (#206)
+- [`2c1a913`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/2c1a913315c75ecc0ddc32ec41a35e5a672f0843) build(deps): upgraded github.com/alexfalkowski/bin (#205)
+- [`57fac26`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/57fac2680a5ef349bde15e003077eb07cb2623df) build(ci): use latest published images (#204)
+
 ## [v1.74.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.74.0) - 2025-11-21
 
 - [`83fb7af`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/83fb7afcbb5e05ec92f42f0221de26dee6bde778) feat(deps): bump ruby-lsp from 0.26.3 to 0.26.4 (#203)
