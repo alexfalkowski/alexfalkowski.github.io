@@ -6,6 +6,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.77.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.77.0) - 2026-01-17
+
+- [`30261ff`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/30261ff289ec67e5dfe2a1ec3d0a7b8e8961b4e1) feat(deps): make update-all-dep (#241)
+- [`9595f18`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9595f182eb8f34c4838b7958211b9119a7d69a11) build(license): move to mit (#240)
+- [`b5fd8cc`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/b5fd8ccdeb5ffced8f5a1db6e82c7816063890c3) build(ci): use latest published images (#239)
+- [`3eb7eea`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3eb7eea5479a8b87bc6c08c1d7d54f10d9841dd9) build(ci): use latest published images (#238)
+- [`a7a055d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a7a055dbfb7c29a9ea8c73b1f9e658dea35af8c8) build(deps): bump bin from `42dc7ae` to `07eff55` (#237)
+- [`3586216`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/3586216cc9da53d693340421809bb90893d95672) build(ci): use latest published images (#236)
+- [`46f4ea0`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/46f4ea09e3c72262dc34849d28b23298a73f7a6e) build(ci): use latest published images (#235)
+- [`f899328`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f89932819c4d7de34bbb83854a554b877f4ef2c9) build(deps): upgraded github.com/alexfalkowski/bin (#234)
+- [`b668807`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/b668807cbb84e613ada49d37a784b0e83020eee3) build(ci): use latest published images (#233)
+- [`45bcde1`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/45bcde1dd35fb57ee053c12ab9a05e2c247fd01a) build(deps): upgraded github.com/alexfalkowski/bin (#232)
+- [`ec6e97b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/ec6e97bd34a9876e85f4d2a1f5eb9aa6ebbf2ecb) build(ci): use latest published images (#231)
+- [`e2cadbd`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e2cadbd9a47ce99f8de72fc9db0df15733dae98a) build(deps): bump bin from `664d367` to `302ba69` (#230)
+- [`42c0187`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/42c0187680586c3e259b77abcb188d12162df4be) build(ci): use latest published images (#229)
+- [`9431cb5`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/9431cb51923f72ed8135ecd0ccde5336eb0ebbcd) build(ci): use latest published images (#228)
+- [`a13812a`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a13812a2937d103c7272d552c250f62bffde928a) build(ci): use latest published images (#227)
+- [`21b395d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/21b395d46fb96404dbcdcec4965e67c775f59ee4) build(deps): upgraded github.com/alexfalkowski/bin (#226)
+- [`43787ef`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/43787efba8f79cfd88ebb636908b9b6d884370b6) test(deps): upgraded bundler to 4.0.3 (#225)
+- [`bfe30d1`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/bfe30d1d1a2c36b07943596812435a52952e9fde) build(deps): upgraded github.com/alexfalkowski/bin (#224)
+- [`aa5b059`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/aa5b0590d38df59d39daefad71f1ce319553a0e7) build(ci): use latest published images (#223)
+
 ## [v1.76.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.76.0) - 2025-12-26
 
 - [`e455028`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e455028aeb5ce4f7868a5d075d26b258b98ae91f) feat(deps): bump rubocop from 1.82.0 to 1.82.1 (#222)
