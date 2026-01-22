@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.78.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.78.0) - 2026-01-22
+
+- [`bed244b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/bed244bdc7232861c09c22e14b440d61d60da418) feat(deps): bump ruby-lsp from 0.26.4 to 0.26.5 (#246)
+- [`f44db55`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f44db559727328e22e8f342bd25d361662246642) build(ci): use latest published images (#245)
+- [`2186130`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/2186130811fde38f6648f208d4bd372314b0e514) build(ci): use latest published images (#244)
+- [`98ee48c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/98ee48c90a31845ded6d3f3919097c97fe80f744) build(ci): use latest published images (#243)
+- [`5390612`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/5390612171f770345af6786bc4fb3daf7ee5a798) build(deps): upgraded github.com/alexfalkowski/bin (#242)
+
 ## [v1.77.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.77.0) - 2026-01-17
 
 - [`30261ff`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/30261ff289ec67e5dfe2a1ec3d0a7b8e8961b4e1) feat(deps): make update-all-dep (#241)
