@@ -1,4 +1,19 @@
 title: "Alejandro Falkowski"
-remote_theme: pages-themes/hacker@v0.2.0
+
+# Switch from pages-themes/hacker to Beautiful Jekyll
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
 plugins:
-- jekyll-remote-theme
+  - jekyll-remote-theme
+
+# Basic defaults expected by Beautiful Jekyll (safe to tweak later)
+navbar-links:
+  Home: "/"
+  README: "/"
+
+# If you want a logo/avatar later, point it to a real path under `assets/`
+# avatar: "/assets/images/avatar.png"
+
+# Social links (optional; add/remove as desired)
+social-network-links:
+  github: alexfalkowski
