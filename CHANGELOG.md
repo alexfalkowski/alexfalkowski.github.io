@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.83.1](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.83.1) - 2026-02-13
+
+- [`c349932`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/c349932765c2c98d1d08361a3c4bc1f99069fee8) fix(docs): make sure we link the online section (#262)
+
 ## [v1.83.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.83.0) - 2026-02-13
 
 - [`dc00cbd`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/dc00cbdbd8549a470e06d6e31def01301d712115) feat(docs): add interests (#261)
