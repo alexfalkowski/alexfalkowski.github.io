@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.81.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.81.0) - 2026-02-13
+
+- [`11e8c80`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/11e8c8045c4e43fa76e9dcdaed3f53832588192a) feat(deps): bump rubocop from 1.84.1 to 1.84.2 (#259)
+- [`efe0807`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/efe0807b0c9b71430aaeb12470cec1f69e54d765) build(ci): use latest published images (#258)
+- [`a49824f`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/a49824f0abd15e76981ff6ceec8eea8af9db2327) build(deps): bump bin from `dc92464` to `60f3a4b` (#257)
+- [`57b717a`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/57b717aa81e40bb9c5ffc96cdd509ec2ba2b7efc) build(ci): use latest published images (#256)
+- [`c3b8ee1`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/c3b8ee14ce8f3f807ddde9df2e2db9dde9c35343) build(ci): use latest published images (#254)
+- [`9828653`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/98286536d2f8622a1c3e3b6a876f7eb9b7b2ee57) build(deps): bump bin from `50ee2c1` to `dc92464` (#253)
+- [`7438626`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/7438626f141086731f3695d59e3334e6fb559cab) build(ci): use latest published images (#252)
+- [`1d88087`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/1d88087d8e31a416f394549ff82e20fbeb039612) build(ci): use latest published images (#251)
+
 ## [v1.80.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.80.0) - 2026-02-03
 
 - [`65cb3fb`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/65cb3fbabb6f70fa8336bb629534e4fdfa6f546b) feat(deps): bump rubocop from 1.84.0 to 1.84.1 (#250)
