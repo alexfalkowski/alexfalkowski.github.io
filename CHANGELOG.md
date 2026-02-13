@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.84.1](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.84.1) - 2026-02-13
+
+- [`fe2df05`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/fe2df05e7aeb1f8324def56c8953e3a0be243524) fix(theme): excluse AGENTS.md (#265)
+
 ## [v1.84.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.84.0) - 2026-02-13
 
 - [`bba6e1b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/bba6e1b8909558f90dcbb787d5a5a046d883f308) feat(theme): move to new theme (#264)
