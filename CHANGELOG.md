@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.85.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.85.0) - 2026-02-20
+
+- [`0de81ee`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/0de81ee8dbda84795a3f07a70101a053634d906e) feat(deps): bump ruby-lsp from 0.26.6 to 0.26.7 (#268)
+- [`09dcd00`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/09dcd00093dec6f8489895cdb6ff9795dd73c9eb) build(ci): use latest published images (#267)
+- [`66ba96f`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/66ba96ff005fa358cb46b35814de4d6c0c9fe080) build(ci): use latest published images (#266)
+
 ## [v1.84.1](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.84.1) - 2026-02-13
 
 - [`fe2df05`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/fe2df05e7aeb1f8324def56c8953e3a0be243524) fix(theme): excluse AGENTS.md (#265)
