@@ -27,7 +27,7 @@ jobs:
     resource_class: arm.large
   version:
     docker:
-      - image: alexfalkowski/release:5.51
+      - image: alexfalkowski/release:5.52
     working_directory: ~/alexfalkowski
     steps:
       - checkout:
