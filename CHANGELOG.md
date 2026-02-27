@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.87.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.87.0) - 2026-02-27
+
+- [`afe2ada`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/afe2adac01f48a80bced35a41da16e069a87c1b6) feat(deps): bump rubocop from 1.84.2 to 1.85.0 (#276)
+- [`fe79ede`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/fe79ede948e33af6ef402da61e0fd9c864509fca) build(ci): use latest published images (#275)
+- [`07ee0db`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/07ee0db93bc9e0910a01d7ea2404415d10d5a9ff) build(ci): use latest published images (#274)
+- [`fa68748`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/fa687485331a2faf727fdbd66f73b8fcc622cc7d) build(ci): use latest published images (#273)
+- [`46e6f09`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/46e6f091c69c844388b93dbdccda6341e93aaa4e) build(ci): use latest published images (#272)
+- [`83f2ee9`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/83f2ee96c07aa95b015af63b49405c6fa0266de1) build(deps): upgraded github.com/alexfalkowski/bin (#271)
+
 ## [v1.86.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.86.0) - 2026-02-20
 
 - [`4ed131f`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/4ed131f99e36d6e58bdab5f63e9f2c2318c5b191) feat(deps): bump nokogiri from 1.19.0 to 1.19.1 (#270)
