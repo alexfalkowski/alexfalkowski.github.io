@@ -10,6 +10,7 @@ I’m a software leader focused on building reliable, high-performing systems an
 - [CV](https://docs.google.com/document/d/1Nd9rfwKs_j5rcImtY17WhFj4LDfnHSRY_lgnh5cCjeE/edit?usp=sharing)
 - [LinkedIn](https://www.linkedin.com/in/alejandro-falkowski/)
 - [GitHub](https://github.com/alexfalkowski)
+- [Service status](https://stats.uptimerobot.com/GcWygK84MD)
 - [Blog](https://alejandrofalkowski.substack.com/)
 - [Manager README](https://docs.google.com/document/d/1IR8zKf5e323wEFd8skONK2ruAHWHethVwaXaUcf-NUU/edit?usp=sharing)
 
