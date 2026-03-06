@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.89.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.89.0) - 2026-03-06
+
+- [`6e0a440`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/6e0a4407e1b33c847ddba5483005d8a145fd1206) feat(deps): bump rubocop from 1.85.0 to 1.85.1 (#281)
+- [`8025e59`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/8025e596c961a95e77090adec4e2a0bd646aa484) build(deps): upgraded github.com/alexfalkowski/bin (#280)
+- [`c75ce8c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/c75ce8ca1e4512765d8e32ca6a4cf1db2ef9adc6) build(ci): use latest published images (#279)
+
 ## [v1.88.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.88.0) - 2026-03-04
 
 - [`4407a1c`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/4407a1c11372cb3d47cabdabbef6c7913f79c3f7) feat(status): add uptimerobot (#278)
