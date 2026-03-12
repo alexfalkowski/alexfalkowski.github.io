@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v1.90.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.90.0) - 2026-03-12
+
+- [`7ffe858`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/7ffe8585f57bef7d7a0c306896764251a6053819) feat(deps): bump ruby-lsp from 0.26.7 to 0.26.8 (#292)
+- [`f89d780`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f89d78057fb8b8cca45219547be4f0d96c03c0c4) build(deps): bump bin from `59b1ab0` to `a7996aa` (#291)
+- [`e7ee941`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/e7ee94175421b88f3ee8be67b7cf156b2e85345b) build(ci): update working_directory (#290)
+- [`b33ff82`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/b33ff826d280e90deab510a52483b83d780b05b7) build(ci): use alexfalkowski/release:5.58 (#289)
+- [`b6fec43`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/b6fec4381e40d7c02cff9cdfb2f85d070ca0055c) test(deps): upgraded bundler to 4.0.8 (#288)
+- [`eb84262`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/eb8426253656720b8a341415988e032c695f6dfe) build(ci): use latest published images (#287)
+- [`65d0c57`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/65d0c5700ba17ca691229ab391d6000b50833589) build(ci): add wait-all (#286)
+- [`f3ddf1d`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/f3ddf1d10750d5973ea2f33b292e0d448a92a4d2) build(ci): use latest published images (#285)
+- [`6aa7aa4`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/6aa7aa46f3eab3b8e84db0ff5458bf81017b8794) build(ci): use latest published images (#284)
+- [`c487e3b`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/c487e3b14157b27871f244673cbf27feafa1bf92) build(deps): bump bin from `000304e` to `59b1ab0` (#283)
+- [`dc1fbe2`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/dc1fbe27f1eb5e73de7c0fdf0d974dad805cac8f) build(ci): use latest published images (#282)
+
 ## [v1.89.0](https://github.com/alexfalkowski/alexfalkowski.github.io/releases/tag/v1.89.0) - 2026-03-06
 
 - [`6e0a440`](https://github.com/alexfalkowski/alexfalkowski.github.io/commit/6e0a4407e1b33c847ddba5483005d8a145fd1206) feat(deps): bump rubocop from 1.85.0 to 1.85.1 (#281)
