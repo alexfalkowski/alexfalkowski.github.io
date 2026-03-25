@@ -2,9 +2,12 @@
 
 source 'https://rubygems.org'
 
+gem 'base64'
+gem 'bigdecimal'
 gem 'bundler'
-gem 'github-pages'
-gem 'jekyll'
+gem 'jekyll', '~> 4.4', '>= 4.4.1'
+gem 'jekyll-remote-theme'
+gem 'kramdown-parser-gfm'
 gem 'rubocop'
 gem 'ruby-lsp'
 gem 'simplecov'
