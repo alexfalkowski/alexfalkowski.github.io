@@ -1,89 +1,49 @@
 # AGENTS.md
 
-This repository is a small **GitHub Pages / Jekyll** site.
+This repository is a small GitHub Pages site built with Jekyll.
 
-## Quick orientation
+## Edit here
 
-- Content lives primarily in Markdown.
-- The home page (`index.md`) includes `README.md` via Jekyll’s `{% include_relative %}`.
-- Tooling is Ruby-based (Bundler + `github-pages` + `jekyll`) and uses a shared `bin/` submodule for Make targets.
+- `README.md`: primary page content.
+- `index.md`: home page wrapper; includes `README.md` with `{% include_relative %}`.
+- `_config.yml`: Jekyll config, remote theme, plugin, navbar, social links, and exclusions.
+- `_includes/head-custom.html`: favicon and manifest links injected into the page `<head>`.
+- `assets/css/main.scss`: stylesheet entrypoint.
+- `assets/images/`: favicons and related site assets.
 
-## Repo layout (what to edit)
+## Tooling
 
-- `README.md` — main page content (rendered on the site).
-- `index.md` — Jekyll page that includes `README.md`.
-- `_config.yml` — Jekyll config; uses a remote theme and plugin.
-- `_includes/head-custom.html` — additional HTML injected into the theme’s `<head>` (favicons).
-- `assets/css/main.scss` — site CSS entrypoint; imports the theme.
-- `assets/images/` — icons/favicons.
-- `CNAME` — custom domain.
+- Ruby/Bundler project with dependencies in `Gemfile` and `Gemfile.lock`.
+- Top-level `Makefile` includes shared targets from the `bin/` git submodule:
+  - `bin/build/make/help.mak`
+  - `bin/build/make/ruby.mak`
+  - `bin/build/make/git.mak`
+- Common commands:
+  - `make` or `make help`: show available targets.
+  - `make serve`: run `bundle exec jekyll serve`.
+  - `make dep`: install gems into `vendor/bundle`.
+  - `make clean-dep`: run `bundler clean`.
+  - `make lint`: run RuboCop.
+  - `make fix-lint` or `make format`: run `rubocop -A`.
+  - `make source-key`: generate `.source-key` for CI cache keys.
 
-## Tooling & commands (observed)
+## Current config
 
-### Make targets
+- `_config.yml` uses `remote_theme: daattali/beautiful-jekyll@6.0.1`.
+- Plugins: `jekyll-remote-theme`.
+- Generated site excludes `AGENTS.md` and `vendor`.
+- `.rubocop.yml` targets Ruby `3.3` and excludes `bin/**/*`, `vendor/**/*`, and `_site/**/*`.
+- `.editorconfig` uses spaces with size `2`; `Makefile` uses tabs.
+- `Gemfile.lock` currently pins Bundler `4.0.8`.
 
-Top-level `Makefile` includes Make fragments from the `bin/` submodule:
+## CI
 
-- `bin/build/make/help.mak`
-- `bin/build/make/ruby.mak`
-- `bin/build/make/git.mak`
-
-Useful targets available from those includes:
-
-- `make` / `make help` — prints a generated help menu (default target is `help`).
-- `make serve` — serve the site locally via Jekyll:
-  - runs: `bundle exec jekyll serve` (see `Makefile:6-7`).
-
-From `bin/build/make/ruby.mak`:
-
-- `make lint` — runs RuboCop (`rubocop`) via `bundler exec`.
-- `make fix-lint` / `make format` — runs RuboCop auto-fix (`rubocop -A`) via `bundler exec`.
-- `make dep` / `make clean-dep` — dependency helpers via `bundler`.
-
-From `bin/build/make/git.mak`:
-
-- `make source-key` — creates `.source-key` from `git ls-files` (used by CI caching).
-
-### Ruby / Bundler
-
-- Dependencies: `Gemfile`, `Gemfile.lock`.
-- Bundler version pinned in `Gemfile.lock`:
-  - `BUNDLED WITH 4.0.3` (`Gemfile.lock:371-372`).
-
-### Linting
-
-- RuboCop configuration: `.rubocop.yml`
-  - Target Ruby version: **3.3** (`.rubocop.yml:1-4`).
-  - Excludes `bin/**/*`, `vendor/**/*`, `_site/**/*`.
-
-## CI (observed)
-
-CircleCI config: `.circleci/config.yml`
-
-The `build` job runs:
-
-- `git submodule sync` / `git submodule update --init`
-- `make source-key`
-- `make dep`
-- `make clean-dep`
-- `make lint`
-
-## Project type notes (Jekyll/GitHub Pages)
-
-- Jekyll config (`_config.yml`) uses:
-  - `remote_theme: pages-themes/hacker@v0.2.0`
-  - plugin: `jekyll-remote-theme`
-
-## Conventions
-
-- `.editorconfig`:
-  - `indent_style = space`, `indent_size = 2`, `end_of_line = lf`.
-  - `Makefile` uses tabs.
+- CircleCI config is in `.circleci/config.yml`.
+- `build` runs submodule sync/init, `make source-key`, dependency restore/install/clean, and `make lint`.
+- Additional workflows run `make sync push` on non-`master` branches and `version` / `package` on `master`.
 
 ## Gotchas
 
-- **`bin/` is a git submodule** (`.gitmodules:1-3`). Many Make targets come from it.
-  - Fresh clones typically need: `git submodule update --init` (also run in CI).
-  - The submodule URL is SSH (`git@github.com:...`), so access depends on having GitHub SSH credentials.
-- Local Jekyll builds write `_site/` (already excluded by RuboCop).
-- The rendered homepage content is sourced from `README.md` (via `index.md`), so changes to `README.md` affect the website.
+- `bin/` is a git submodule (`git@github.com:alexfalkowski/bin.git`), so fresh clones usually need `git submodule update --init`.
+- The rendered home page content comes from `README.md`, not `index.md`.
+- Local Jekyll builds write `_site/`.
