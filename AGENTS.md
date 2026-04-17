@@ -2,6 +2,13 @@
 
 This repository is a small GitHub Pages site built with Jekyll.
 
+## Shared skill
+
+Use the shared `coding-standards` skill from `./bin/skills/coding-standards`
+for cross-repository coding, review, testing, documentation, and PR
+conventions. Treat this `AGENTS.md` as the repo-specific companion to that
+skill.
+
 ## Edit here
 
 - `README.md`: primary page content.
