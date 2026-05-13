@@ -2,10 +2,11 @@
 
 This repository is a small GitHub Pages site built with Jekyll.
 
-## Shared skill
+## Shared skills
 
-Use the shared `coding-standards` skill from `bin/skills/coding-standards` for code changes, bug fixes, refactors, reviews, tests, linting, documentation, PR summaries, commits, Makefile changes, CI validation, and verification. Treat this `AGENTS.md` as the repo-specific companion to that
-skill.
+This repository uses the shared skills from `bin/skills/`. Read
+`bin/AGENTS.md` for the canonical shared skill list and use the smallest
+matching skill for the task.
 
 ## Edit here
 
