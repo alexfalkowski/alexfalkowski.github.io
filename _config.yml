@@ -3,6 +3,10 @@ title: "Alejandro Falkowski"
 # Exclude internal repository docs and vendored dependencies from the generated site output
 exclude:
   - AGENTS.md
+  - LICENSE
+  - Makefile
+  - README.md
+  - bin
   - vendor
 
 # Switch from pages-themes/hacker to Beautiful Jekyll
@@ -10,6 +14,13 @@ remote_theme: daattali/beautiful-jekyll@6.0.1
 
 plugins:
   - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      head-extra:
+        - head-custom.html
 
 # Basic defaults expected by Beautiful Jekyll (safe to tweak later)
 navbar-links:
