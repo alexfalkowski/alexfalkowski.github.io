@@ -10,8 +10,9 @@ matching skill for the task.
 
 ## Edit here
 
-- `README.md`: primary page content.
-- `index.md`: home page wrapper; includes `README.md` with `{% include_relative %}`.
+- `README.md`: repository documentation.
+- `_includes/home.md`: primary page content.
+- `index.md`: home page wrapper; includes `_includes/home.md`.
 - `_config.yml`: Jekyll config, remote theme, plugin, navbar, social links, and exclusions.
 - `_includes/head-custom.html`: favicon and manifest links injected into the page `<head>`.
 - `assets/css/main.scss`: stylesheet entrypoint.
