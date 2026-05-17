@@ -25,7 +25,6 @@ defaults:
 # Basic defaults expected by Beautiful Jekyll (safe to tweak later)
 navbar-links:
   Home: "/"
-  README: "/"
 
 # If you want a logo/avatar later, point it to a real path under `assets/`
 # avatar: "/assets/images/avatar.png"
