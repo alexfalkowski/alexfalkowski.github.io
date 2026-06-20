@@ -2,11 +2,9 @@
 
 This repository is a small GitHub Pages site built with Jekyll.
 
-## Shared skills
+## Shared guidance
 
-This repository uses the shared skills from `bin/skills/`. Read
-`bin/AGENTS.md` for the canonical shared skill list and use the smallest
-matching skill for the task.
+Use `bin/AGENTS.md` for shared skills and cross-repository defaults.
 
 ## Edit here
 
@@ -51,6 +49,6 @@ matching skill for the task.
 
 ## Gotchas
 
-- `bin/` is a git submodule (`git@github.com:alexfalkowski/bin.git`), so fresh clones usually need `git submodule update --init`.
+- `bin/` is a git submodule, so fresh clones usually need `git submodule update --init`.
 - The rendered home page content comes from `README.md`, not `index.md`.
 - Local Jekyll builds write `_site/`.
