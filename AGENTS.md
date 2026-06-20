@@ -25,21 +25,22 @@ Use `bin/AGENTS.md` for shared skills and cross-repository defaults.
   - `bin/build/make/git.mak`
 - Common commands:
   - `make` or `make help`: show available targets.
-  - `make serve`: run `bundle exec jekyll serve`.
-  - `make dep`: install gems into `vendor/bundle`.
-  - `make clean-dep`: run `bundler clean`.
-  - `make lint`: run RuboCop.
-  - `make fix-lint` or `make format`: run `rubocop -A`.
+  - `make serve`: run the local Jekyll server through the shared Ruby target.
+  - `make dep`: install repository dependencies.
+  - `make clean-dep`: clean unused dependencies.
+  - `make lint`: run repository linting.
+  - `make fix-lint` or `make format`: apply supported lint fixes/formatting.
   - `make source-key`: generate `.source-key` for CI cache keys.
 
 ## Current config
 
-- `_config.yml` uses `remote_theme: daattali/beautiful-jekyll@6.0.1`.
+- `_config.yml` owns the current remote theme selection.
 - Plugins: `jekyll-remote-theme`.
 - Generated site excludes `AGENTS.md` and `vendor`.
-- `.rubocop.yml` targets Ruby `3.3` and excludes `bin/**/*`, `vendor/**/*`, and `_site/**/*`.
+- `.rubocop.yml` owns the current Ruby lint target and excludes `bin/**/*`,
+  `vendor/**/*`, and `_site/**/*`.
 - `.editorconfig` uses spaces with size `2`; `Makefile` uses tabs.
-- `Gemfile.lock` currently pins Bundler `4.0.8`.
+- `Gemfile.lock` owns the current Bundler and dependency versions.
 
 ## CI
 
@@ -49,6 +50,7 @@ Use `bin/AGENTS.md` for shared skills and cross-repository defaults.
 
 ## Gotchas
 
-- `bin/` is a git submodule, so fresh clones usually need `git submodule update --init`.
+- `bin/` is a git submodule, so initialize it before relying on shared Make
+  targets.
 - The rendered home page content comes from `README.md`, not `index.md`.
 - Local Jekyll builds write `_site/`.
