@@ -36,6 +36,7 @@ jobs:
             - alexfalkowski-ruby-cache-
       - run: make dep
       - run: make clean-dep
+      - run: make build
       - save_cache:
           name: save deps
           key: alexfalkowski-ruby-cache-{{ checksum "Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
