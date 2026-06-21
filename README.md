@@ -11,8 +11,10 @@ The site is built with Jekyll and the Beautiful Jekyll remote theme. Public home
 
 - `make`: show available targets
 - `make dep`: install Ruby dependencies into `vendor/bundle`
+- `make build`: build the production Jekyll site
 - `make serve`: run the local Jekyll server
 - `make lint`: run RuboCop
+- `make sec`: run repository security checks
 
 ## Content
 
