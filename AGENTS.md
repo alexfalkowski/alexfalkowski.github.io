@@ -28,7 +28,10 @@ Use `bin/AGENTS.md` for shared skills and cross-repository defaults.
   - `make serve`: run the local Jekyll server through the shared Ruby target.
   - `make dep`: install repository dependencies.
   - `make clean-dep`: clean unused dependencies.
+  - `make build`: build the production Jekyll site. Set `baseurl=<path>` when
+    matching the GitHub Pages deployment path.
   - `make lint`: run repository linting.
+  - `make sec`: run repository security checks.
   - `make fix-lint` or `make format`: apply supported lint fixes/formatting.
   - `make source-key`: generate `.source-key` for CI cache keys.
 
@@ -45,7 +48,9 @@ Use `bin/AGENTS.md` for shared skills and cross-repository defaults.
 ## CI
 
 - CircleCI config is in `.circleci/config.yml`.
-- `build` runs submodule sync/init, `make source-key`, dependency restore/install/clean, and `make lint`.
+- `build` runs submodule sync/init, `make source-key`, dependency restore/install/clean, `make build`, `make lint`, and `make sec`.
+- GitHub Pages deployment is in `.github/workflows/jekyll.yml` and calls
+  `make build baseurl=<pages path>`.
 - Additional workflows run `make sync push` on non-`master` branches and `version` / `package` on `master`.
 
 ## Gotchas
