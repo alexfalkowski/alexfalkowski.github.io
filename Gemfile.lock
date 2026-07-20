@@ -159,7 +159,7 @@ GEM
       google-protobuf (~> 4.31)
     sass-embedded (1.100.0-x86_64-linux-musl)
       google-protobuf (~> 4.31)
-    simplecov (1.0.1)
+    simplecov (1.0.2)
     simplecov-cobertura (4.0.0)
       rexml
       simplecov (~> 1.0)
